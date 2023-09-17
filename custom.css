@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    background: url('img/background2.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Mont", sans-serif !important;
+}
+
+.btn { 
+    border-radius: 0;
+    min-width: 300px;
+    max-width: 300px;
+    margin-top: 30px;
+    border-color: black;
+    font-size: 24;
+}
+
+.main_header {
+    font-size: 96;
+    margin-top: 50;
+    font-weight: bold;
+}
+
+.sub_header {
+    font-size: 36;
+    margin-top: -30;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 18;
+    margin-top: 15;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.variable {
+    font-style: normal;
+}
+
+#imgBox {
+    margin-top: 0;
+    position: relative;
+}
+
+.formwrapper {
+    margin-top: 1000;
+    margin-bottom: 0;
+}
+
+#design {
+        left: 200px;
+        position: absolute;
+        top: 125px;
+        width: 100px
+}

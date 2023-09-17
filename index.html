@@ -1,0 +1,85 @@
+<!DOCTYPE htm>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strand</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class = "bg"></div>
+     
+    <div class="d-flex justify-content-center">
+        <h1 class="main_header">STRAND</h1>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <h2 class="sub_header">the DNA collection</h2>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <p class = "text" id = "shirtnumtext">You are generating shirt no. <var class = "variable" id = "num">1</var></p>
+    </div>
+
+    <div class="d-flex justify-content-center" id = "formwrapper">
+    <form id = "form">
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example1" class="form-control" />
+              <label class="form-label" for="form6Example1">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" />
+              <label class="form-label" for="form6Example2">Last name</label>
+            </div>
+          </div>
+        </div>
+      
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example4" class="form-control" />
+          <label class="form-label" for="form6Example4">Address</label>
+        </div>
+      
+        <div class="form-outline mb-4">
+          <input type="email" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Email</label>
+        </div>
+      
+        <div class="form-outline mb-4">
+          <input type="number" id="form6Example6" class="form-control" />
+          <label class="form-label" for="form6Example6">Phone</label>
+        </div>
+      
+        <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+      </form>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="imgBox" id = "shirt_group">
+            <img id="shirt" src="img/shirt_temp.png" width = 500>
+            <img id="design" src = "">
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="btn-group">
+            <button onclick = "genClick()" type="button" id = "gen" class="btn btn-outline-dark">Create New</button>
+            <button onclick = "buyClick()" type="button" id = "buy" class="btn btn-dark" background-color = "black">Buy</button>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <p><var class = "variable" id = "num">3</var> attempts remaining</p>
+    </div>
+
+
+  </body>
+
+</body>    
+</html>
